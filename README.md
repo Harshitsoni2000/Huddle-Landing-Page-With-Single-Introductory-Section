@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://your-solution-url.com)
+- [Live Site URL](https://harshitsoni2000.github.io/Huddle-Landing-Page-With-Single-Introductory-Section/)
 
 ## My process
 
@@ -43,6 +43,8 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css) - For styles
 
 ### What I learned
