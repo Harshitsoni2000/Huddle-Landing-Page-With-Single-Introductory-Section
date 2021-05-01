@@ -1,0 +1,165 @@
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 2.3125rem;
+}
+
+p {
+  color: hsl(0, 0%, 90%);
+  padding: 2% 0 1%;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+footer {
+  width: 100%;
+  text-align: right;
+  padding-right: 5%;
+}
+
+/* BRAND TITLE */
+.brand-title {
+  width: auto;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+/* MAIN SECTION */
+#section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 8%;
+}
+
+/* ROW CONTAINING THE 2 COLUMNS */
+.row {
+  margin: 0;
+}
+
+/* COLUMN 1 CONTAINING THE ILLUSTRATION MOCKUP IMAGE */
+.c-1 {
+  padding: 0;
+  padding-right: 1.875rem;
+}
+
+/* COLUMN 2 CONTAINING THE INFORMATION */
+.c-2 {
+  padding: 0;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 6.25rem;
+  color: hsl(257, 40%, 49%);
+  background-color: #fff;
+  box-shadow: 0.3rem 0.3rem 0.8rem rgba(0, 0, 0, 0.5);
+  width: 15rem;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: hsl(300, 69%, 71%);
+}
+
+/* FOOTER SECTION */
+.fab-circles {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  height: 2rem;
+  width: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+}
+
+.fab-circles:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 1300px) {
+  footer {
+    padding-right: 0;
+    padding-bottom: 0.9375rem;
+  }
+
+  #section {
+    padding: 6%;
+  }
+
+  .c-1 {
+    padding: 0 1.25rem 0 0;
+  }
+
+  .c-2 {
+    padding: 0 0 0 1.25rem;
+  }
+
+  .btn {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    padding: 0 5%;
+  }
+
+  footer {
+    text-align: center;
+    position: relative;
+    top: 3.125rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .c-1 {
+    margin: 20% auto 10%;
+    padding: 0;
+  }
+
+  .c-2 {
+    padding: 0 5%;
+    align-items: center;
+  }
+}
