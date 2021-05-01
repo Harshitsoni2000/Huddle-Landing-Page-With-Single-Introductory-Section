@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/Harshitsoni2000/Huddle-Landing-Page-With-Single-Introductory-Section)
 - [Live Site URL](https://harshitsoni2000.github.io/Huddle-Landing-Page-With-Single-Introductory-Section/)
 
 ## My process
